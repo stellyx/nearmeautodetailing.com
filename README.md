@@ -2,7 +2,9 @@
 
 One-page, mobile-friendly referral and contact website for Near Me Auto Detailing in Austin, Texas.
 
-The website uses one `index.html` with its CSS and decorative SVG included. It requires no build, packages, paid site builder, or backend. The illustration is decorative, not a portfolio photograph.
+The website uses one `index.html` with its CSS included and a local WebP hero image. It requires no build, packages, paid site builder, or backend.
+
+The design has a dark automotive showroom look, bold slanted typography, silver sports-car imagery, and racing-red accents. The original hero image is AI-generated promotional artwork, not a portfolio photograph or an actual customer's vehicle. It does not use game logos or manufacturer branding.
 
 ## Hosting
 
