@@ -10,31 +10,27 @@ The design has a dark automotive showroom look, bold slanted typography, silver 
 
 GitHub Pages: deploy from the `main` branch, `/(root)` directory.
 
-Live page: https://stellyx.github.io/nearmeautodetailing.com/
+Live page: https://nearmeautodetailing.com/
+
+The www address redirects to the apex domain. GitHub Pages Enforce HTTPS is enabled.
 
 ## Current checkpoint
 
 - Verified business name: Near Me Auto Detailing.
 - Verified category/location: mobile auto detailing in Austin, Texas.
-- Original Framer site is offline. This page is a new draft, not an exact copy of the inaccessible original.
+- This page was rebuilt from scratch after the original Framer site went offline.
 - Confirmed contact number: 512-553-2552, with `tel:+15125532552` and `sms:+15125532552` links.
 - Current purpose: a simple detailing referral page while Andrew owns the site. It does not promise bookings or imply Andrew performs the services.
 - Email has not been confirmed, so none is published. There is no form or backend to maintain.
 - An eventual sale can be handled later. The public page does not advertise a sale.
 - No pricing, reviews, ratings, experience claims, portfolio photos, water/power promises, or extra service areas have been invented.
-- Draft is excluded from indexing with `robots.txt` and a robots meta tag.
+- Search crawling is allowed. The page includes its canonical URL and a sitemap.
 - The GitHub Pages custom-domain file `CNAME` is configured for `nearmeautodetailing.com`.
-- GoDaddy DNS changes and custom-domain HTTPS verification are pending. The GitHub Pages URL may redirect to the custom domain while the DNS switch is pending.
+- Domain launch verified October 9, 2026 (Central time): all four GitHub Pages A records resolve correctly; GitHub's DNS check succeeds; the HTTPS www address redirects to the apex and returns the rebuilt page with status 200. Enforce HTTPS was enabled and its checked state was verified in GitHub Pages settings.
 
-## Finish before the domain switch
+## GoDaddy DNS reference
 
-1. Apply the website DNS changes below in GoDaddy. Preserve all other records, including email/MX/TXT records and nameservers.
-2. Verify the custom domain and HTTPS, then enable Enforce HTTPS in GitHub Pages settings when available.
-3. Remove the draft robots meta tag, change `robots.txt` to allow crawling, and add the canonical URL and sitemap using the verified final domain.
-
-## GoDaddy DNS switch
-
-The screenshots provided on October 9, 2026 show two Framer apex A records and a Framer www CNAME. Set TTL to 1 hour for each changed or added record.
+The screenshots provided on October 9, 2026 showed two Framer apex A records and a Framer www CNAME. The website records were switched to GitHub Pages; the other records were to be preserved. The current public A responses use a TTL of 600 seconds.
 
 | Action | Type | Name | Existing value | New value |
 | --- | --- | --- | --- | --- |
