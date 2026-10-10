@@ -4,8 +4,6 @@
   if (!video || !button || typeof video.play !== 'function') return;
 
   const media = video.parentElement;
-  const icon = button.querySelector('.motion-icon');
-  const label = button.querySelector('.motion-label');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const connection = navigator.connection;
   let userPaused = false;
@@ -18,8 +16,9 @@
 
   function syncButton() {
     const playing = !video.paused && !video.ended;
-    icon.textContent = playing ? 'Ⅱ' : '▶';
-    label.textContent = playing ? 'Pause motion' : 'Play motion';
+    button.dataset.playing = String(playing);
+    button.setAttribute('aria-label', playing ? 'Pause background motion' : 'Play background motion');
+    button.setAttribute('aria-pressed', String(playing));
   }
 
   function allowed() {

@@ -38,6 +38,7 @@
     @media(prefers-reduced-motion:reduce){.hero-media video{transition:none}}
   .maps-link{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:48px;margin-top:22px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;font-weight:700;color:var(--white)}.maps-link:hover{color:var(--red)}
   </style>
+  <link rel="stylesheet" href="assets/motion-controls.css?v=1">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -49,7 +50,7 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-content wrap"><p class="eyebrow mono"><span class="status-dot" aria-hidden="true"></span>Austin, TX &nbsp;/&nbsp; Mobile detailing</p><h1 id="hero-title">Your next<span>refresh.</span></h1><p class="intro">Your car, refreshed. Mobile auto detailing in Austin, TX—tell us what your vehicle needs and request a quote.</p><div class="actions"><a class="button" href="tel:+15125532552">Call 512-553-2552 <span class="arrow" aria-hidden="true">↗</span></a><a class="button secondary" href="sms:+15125532552">Send a text <span class="arrow" aria-hidden="true">↗</span></a></div></div>
       <div class="hero-media" aria-hidden="true"><img src="assets/grand-tourer.webp" width="1672" height="941" alt="" fetchpriority="high" decoding="async"><video id="hero-video" data-src="assets/detailing-loop.mp4" poster="assets/grand-tourer.webp" loop muted playsinline preload="none" tabindex="-1"></video></div>
-      <button class="motion-toggle" type="button" aria-controls="hero-video" hidden><span class="motion-icon" aria-hidden="true">▶</span><span class="motion-label">Play motion</span></button>
+      <button class="motion-toggle motion-control" type="button" aria-controls="hero-video" hidden aria-pressed="false" aria-label="Play background motion" data-playing="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path class="motion-play" d="M8 5v14l11-7z"/><g class="motion-pause"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></g></svg></button>
       <p class="hero-caption mono">Every detail. A fresh perspective.</p>
     </section>
     <div class="ticker wrap" aria-label="At a glance"><div class="ticker-item"><span class="ticker-number">01</span><span class="ticker-label">Mobile auto detailing</span></div><div class="ticker-item"><span class="ticker-number">02</span><span class="ticker-label">Austin, Texas</span></div><div class="ticker-item"><span class="ticker-number">03</span><span class="ticker-label">Call or text</span></div></div>
@@ -70,6 +71,6 @@
     </section>
   </main>
   <footer class="footer wrap"><span>© 2026 Near Me Auto Detailing</span><span>Austin, Texas · Mobile auto detailing</span><a href="#main">Back to top ↑</a></footer>
-  <script src="assets/hero-motion.js" defer></script>
+  <script src="assets/hero-motion.js?v=2" defer></script>
 </body>
 </html>
