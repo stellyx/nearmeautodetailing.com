@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Near Me Auto Detailing</title>
+  <desc id="desc">The website's red and white three-stripe mark and wordmark on charcoal.</desc>
+  <rect width="1024" height="1024" fill="#080a0c"/>
+  <g transform="translate(428 312) skewX(-18)">
+    <rect width="62" height="192" fill="#ff423c"/>
+    <rect x="92" width="62" height="192" fill="#ff423c"/>
+    <rect x="184" y="48" width="62" height="144" fill="#f1f2f3"/>
+  </g>
+  <text x="512" y="616" text-anchor="middle" font-family="DejaVu Sans,Arial,Helvetica,sans-serif" font-size="99" font-weight="bold" letter-spacing="3" fill="#f1f2f3">NEAR ME</text>
+  <text x="516" y="677" text-anchor="middle" font-family="DejaVu Sans,Arial,Helvetica,sans-serif" font-size="28" letter-spacing="10" fill="#abb1b8">AUTO DETAILING</text>
+</svg>
