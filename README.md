@@ -2,9 +2,15 @@
 
 One-page, mobile-friendly referral and contact website for Near Me Auto Detailing in Austin, Texas.
 
-The website uses one `index.html` with its CSS included and a local WebP hero image. It requires no build, packages, paid site builder, or backend.
+The website uses one `index.html` with its CSS included, a local WebP hero image, and a local silent MP4 background controlled by `assets/hero-motion.js`. It requires no build, packages, paid site builder, or backend.
 
 The design has a dark automotive showroom look, bold slanted typography, silver sports-car imagery, and racing-red accents. The original hero image is AI-generated promotional artwork, not a portfolio photograph or an actual customer's vehicle. It does not use game logos or manufacturer branding.
+
+## Background motion
+
+The same silver coupe appears in a short detailing loop: a moving camera and water spray, a close-up of beading water, then a screen wipe to a gloved hand applying ceramic coating. The original image stays visible until video playback begins and remains the fallback if playback is blocked or fails.
+
+The video plays silently and inline, with a visible Play/Pause motion button. It pauses outside the hero or when the tab is hidden. Reduced-motion and data-saver preferences prevent automatic loading and playback; visitors can explicitly choose Play motion. Source prompts, the generation receipt, and finishing settings are recorded in `assets/motion-manifest.json`.
 
 ## Hosting
 

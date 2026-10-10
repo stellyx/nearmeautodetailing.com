@@ -1,0 +1,66 @@
+{
+  "generated_at_utc": "2026-10-10T03:21:02.864Z",
+  "project": "Near Me Auto Detailing",
+  "purpose": "Decorative AI-generated website background; not a customer portfolio or documented service",
+  "provider": "Runway",
+  "task_id": "10b136de-f488-4c2e-bd74-162ad4fb4816",
+  "artifact_id": "4f0291f8-c4a6-4d85-b940-78103879d7dd",
+  "reference_image": "grand-tourer.webp",
+  "generation": {
+    "mode": "custom",
+    "model": "kling-3-standard",
+    "duration_seconds": 15,
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "sound": false,
+    "submitted_shots": [
+      {
+        "prompt": "Start from the supplied image of the silver grand touring coupe in the dark black-and-red detailing bay. The camera immediately begins a smooth, restrained dolly push toward the front hood and headlight, with a slight rightward arc. The parked car stays still while the light reflections travel across its curves. Preserve the coupe's exact silhouette, silver paint, thin headlights and dark wheels. Cinematic automotive campaign photography, white strip lights and red rim glow. Keep the left third dark and uncluttered for website text. Continuous clear camera movement."
+      },
+      {
+        "prompt": "Continue on the SAME silver coupe in the SAME dark detailing bay. Tight close-up of the silver hood and headlight on the right side of the frame. A fine fan of clean water sprays onto the paint from offscreen right; the spray stops and the water gathers into distinct rounded beads that glisten and roll down the curved silver panel. The camera gently pushes closer to the beading water. Crisp real water droplets, cool white strip-light reflections, subtle red background glow. Keep the left third dark. At the end, a dark foreground shape sweeps left-to-right across the lens as a screen wipe."
+      },
+      {
+        "prompt": "The left-to-right screen wipe reveals a macro close-up of a clean, DRY silver hood on the SAME coupe, still in the black detailing bay with white strip-light reflections and restrained red accents. Only a detailer's black nitrile-gloved hand and a small rectangular dark suede applicator enter from the right. The hand presses the applicator flat to the dry paint and deliberately applies a thin transparent ceramic coating in two smooth overlapping straight passes. Close framing on hand, applicator and glossy car panel; gentle camera glide. Keep the action on the right half and the left third dark for website text. Photorealistic, elegant, no text, no branding."
+      }
+    ],
+    "effective_shots": [
+      {
+        "prompt": "Start from the supplied image of the silver grand touring coupe in the dark black-and-red detailing bay. The camera immediately begins a smooth, restrained dolly push toward the front hood and headlight, with a slight rightward arc. The parked car stays still while the light reflections travel across its curves. Preserve the coupe's exact silhouette, silver paint, thin headlights and dark wheels. Cinematic automotive campaign photography, white strip lights and red rim glow. Keep the left third ",
+        "duration": 5
+      },
+      {
+        "prompt": "Continue on the SAME silver coupe in the SAME dark detailing bay. Tight close-up of the silver hood and headlight on the right side of the frame. A fine fan of clean water sprays onto the paint from offscreen right; the spray stops and the water gathers into distinct rounded beads that glisten and roll down the curved silver panel. The camera gently pushes closer to the beading water. Crisp real water droplets, cool white strip-light reflections, subtle red background glow. Keep the left third d",
+        "duration": 5
+      },
+      {
+        "prompt": "The left-to-right screen wipe reveals a macro close-up of a clean, DRY silver hood on the SAME coupe, still in the black detailing bay with white strip-light reflections and restrained red accents. Only a detailer's black nitrile-gloved hand and a small rectangular dark suede applicator enter from the right. The hand presses the applicator flat to the dry paint and deliberately applies a thin transparent ceramic coating in two smooth overlapping straight passes. Close framing on hand, applicator",
+        "duration": 5
+      }
+    ],
+    "note": "The connector truncated each effective shot prompt to 500 characters; full submitted prompts are retained above. The generated transition into the coating close-up was a cut, so a screen wipe was added during finishing.",
+    "credits_before": 4372,
+    "credits_after_submission": 4233,
+    "observed_credit_debit": 139
+  },
+  "finishing": {
+    "source_frames": 361,
+    "source_fps": 24,
+    "split_before_frame": 247,
+    "transition": "wiperight",
+    "transition_seconds": 0.5,
+    "transition_offset_seconds": 9.791666667,
+    "loop_fade_in_seconds": 0.25,
+    "loop_fade_out_seconds": 0.375,
+    "codec": "H.264",
+    "pixel_format": "yuv420p",
+    "crf": 24,
+    "preset": "slow",
+    "fast_start": true
+  },
+  "review": {
+    "sampled_source": "Quarter-second frame samples across the entire source plus every frame through the water-to-coating cut.",
+    "observed": "The same silver coupe, moving camera, spray, water beads, and gloved ceramic applicator are present.",
+    "controls_checked": "Autoplay, explicit pause persistence, offscreen/tab suspension, reduced motion, data saver, user opt-in, and blocked-autoplay image fallback."
+  }
+}
