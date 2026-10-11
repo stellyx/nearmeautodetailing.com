@@ -26,7 +26,7 @@ The www address redirects to the apex domain. GitHub Pages Enforce HTTPS is enab
 - Verified category/location: mobile auto detailing in Austin, Texas.
 - This page was rebuilt from scratch after the original Framer site went offline.
 - Confirmed contact number: 512-553-2552, with `tel:+15125532552` and `sms:+15125532552` links.
-- Current purpose: a simple detailing referral page while Andrew owns the site. It does not promise bookings or imply Andrew performs the services.
+- Current purpose: a simple detailing referral page under current site ownership. It does not promise bookings or imply that the site owner personally performs the services.
 - Email has not been confirmed, so none is published. There is no form or backend to maintain.
 - An eventual sale can be handled later. The public page does not advertise a sale.
 - No pricing, reviews, ratings, experience claims, portfolio photos, water/power promises, or extra service areas have been invented.
