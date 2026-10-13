@@ -49,3 +49,21 @@ The screenshots provided on October 9, 2026 showed two Framer apex A records and
 The www CNAME is a hostname only: no https:// and no repository path. Preserve the remaining 16 existing records. The MX and Microsoft-related records are not proof that a specific email address is active, so no guessed address is published.
 
 Sources: [GitHub DNS configuration](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), [branch-source CNAME configuration](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages).
+
+## Customer experience update
+
+The October 13 refinement adapts the service-selection, FAQ, mobile-action and motion-reliability patterns from the Topaz auto concept to this real customer site. There are no template purchase links, invented prices or portfolio photos. Existing SEO metadata, indexed URL, Google Maps destination and phone number are preserved.
+
+`assets/customer-experience.css` styles the service rail, inline request builder, FAQ and mobile contact dock. `assets/customer-experience.js` creates a customer-controlled text-message draft for the existing phone number. No data is sent by the form, no customer data is stored in browser storage, and there is no third-party form backend. The visitor reviews and sends in their own messaging app; copying is a fallback for desktops or unsupported SMS handlers. Call/text links remain available without JavaScript.
+
+The hero retains its existing approved artwork and film. Its controller now guards late playback, pending-play pause, failed autoplay and media errors. Reduced motion, data saving, hidden tabs and explicit visitor pauses are respected.
+
+Checks (no build required):
+
+```sh
+python tests/check-site.py  # requires lxml
+node tests/check-motion.cjs
+node tests/check-brief.cjs
+```
+
+Manual QA: desktop and narrow viewport; service links and generated message; FAQ open/close; copy fallback; phone/SMS destinations without placing calls or sending messages; motion pause/resume and offscreen behavior.
